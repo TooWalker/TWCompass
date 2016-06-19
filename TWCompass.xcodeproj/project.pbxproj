@@ -13,6 +13,7 @@
 		4441CA851D164330000FDFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4441CA831D164330000FDFE8 /* LaunchScreen.storyboard */; };
 		4441CA8E1D164A71000FDFE8 /* TWCompassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4441CA8D1D164A71000FDFE8 /* TWCompassVC.m */; };
 		4441CA901D164C12000FDFE8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4441CA8F1D164C12000FDFE8 /* CoreLocation.framework */; };
+		44E317531D16944600D4F7D5 /* TWCompassV.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E317521D16944600D4F7D5 /* TWCompassV.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4441CA8C1D164A71000FDFE8 /* TWCompassVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCompassVC.h; sourceTree = "<group>"; };
 		4441CA8D1D164A71000FDFE8 /* TWCompassVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCompassVC.m; sourceTree = "<group>"; };
 		4441CA8F1D164C12000FDFE8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		44E317511D16944600D4F7D5 /* TWCompassV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCompassV.h; sourceTree = "<group>"; };
+		44E317521D16944600D4F7D5 /* TWCompassV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCompassV.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				4441CA791D164330000FDFE8 /* AppDelegate.m */,
 				4441CA8C1D164A71000FDFE8 /* TWCompassVC.h */,
 				4441CA8D1D164A71000FDFE8 /* TWCompassVC.m */,
+				44E317511D16944600D4F7D5 /* TWCompassV.h */,
+				44E317521D16944600D4F7D5 /* TWCompassV.m */,
 				4441CA811D164330000FDFE8 /* Assets.xcassets */,
 				4441CA831D164330000FDFE8 /* LaunchScreen.storyboard */,
 				4441CA861D164330000FDFE8 /* Info.plist */,
@@ -153,6 +158,7 @@
 			files = (
 				4441CA7A1D164330000FDFE8 /* AppDelegate.m in Sources */,
 				4441CA771D164330000FDFE8 /* main.m in Sources */,
+				44E317531D16944600D4F7D5 /* TWCompassV.m in Sources */,
 				4441CA8E1D164A71000FDFE8 /* TWCompassVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
