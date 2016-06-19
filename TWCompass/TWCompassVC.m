@@ -49,18 +49,16 @@
     
     self.geoCoder = [[CLGeocoder alloc] init];
     self.CLMgr = [[CLLocationManager alloc] init];
-    self.CLMgr.delegate = self;
-    self.CLMgr.desiredAccuracy = kCLLocationAccuracyBestForNavigation;
+
     
     if (![CLLocationManager locationServicesEnabled]) {
-        NSLog(@"没有开启定位功能，请开启后使用！");
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示" message:@"定位服务当前可能尚未打开，请设置打开！" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:nil];
+        [alertView show];
         return;
     }
-    if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusDenied) {
-        
-    }
-    
     [self.CLMgr requestAlwaysAuthorization];
+    self.CLMgr.delegate = self;
+    self.CLMgr.desiredAccuracy = kCLLocationAccuracyBestForNavigation;
     
     [self.CLMgr startUpdatingLocation];
     [self.CLMgr startUpdatingHeading];
