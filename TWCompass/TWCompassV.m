@@ -13,7 +13,7 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor colorWithWhite:0.9 alpha:1.000];
         
         UIImageView *compassImgV = [self setupImgV];
         self.compassImgV = compassImgV;
