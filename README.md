@@ -1,8 +1,8 @@
 # TWCompass
-TooWalker Compass - imitate Apple's Compass-app
+###TooWalker Compass - imitate Apple's Compass-app
 
 
-![](https://github.com/TooWalker/TWCompass/raw/master/screenshots/AppleCompass.jpg =100x"")
-苹果的指南针应用截图
-![](https://github.com/TooWalker/TWCompass/blob/master/screenshots/SelfCompass.jpg =100x"")
-仿制的指南针应用截图
+<img src="https://github.com/TooWalker/TWCompass/raw/master/screenshots/AppleCompass.jpg" width="50%" height="50%"> <img src="https://github.com/TooWalker/TWCompass/raw/master/screenshots/SelfCompass.jpg" width="50%" height="50%">
+###苹果的指南针应用截图
+
+###仿制的指南针应用截图
