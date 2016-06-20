@@ -1,7 +1,7 @@
 # TWCompass
 TooWalker Compass - imitate Apple's Compass-app
 
-图左为系统自带的指南针（Compass）应用，图右是仿造的指南针应用。
+图左为系统自带的指南针（Compass）应用，图右是仿造的指南针（TWCompass）应用。
 
 <img src="https://github.com/TooWalker/TWCompass/raw/master/screenshots/AppleCompass.jpg" width="320">  <img src="https://github.com/TooWalker/TWCompass/raw/master/screenshots/Compass.jpg" width="320">
 
